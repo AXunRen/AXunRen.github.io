@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://axunren.github.io/</id>
     <title>XunRen&apos;s room</title>
-    <updated>2023-10-14T15:52:15.499Z</updated>
+    <updated>2023-10-15T12:54:48.618Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://axunren.github.io/"/>
     <link rel="self" href="https://axunren.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://axunren.github.io/images/avatar.png</logo>
     <icon>https://axunren.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, XunRen&apos;s room</rights>
+    <entry>
+        <title type="html"><![CDATA[技能系统更新日志①]]></title>
+        <id>https://axunren.github.io/Hbcz3jIIr/</id>
+        <link href="https://axunren.github.io/Hbcz3jIIr/">
+        </link>
+        <updated>2023-10-15T08:27:31.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于我或我们]]></title>
         <id>https://axunren.github.io/About-Me-or-Us/</id>
