@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>XunRen&#39;s room</title>
+<title>技能系统更新日志① | XunRen&#39;s room</title>
 <meta name="description" content="乐">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://axunren.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -69,17 +77,62 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          <div class="tags-container">
+          <h2 class="post-title">技能系统更新日志①</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2023-10-15</span>
             
-              <a class="tag" href="https://axunren.github.io/MSU/">MSU</a>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://axunren.github.io/MSU/">
+                    MSU
+                    
+                  </a>
+                
+              </span>
             
           </div>
+          <div class="post-content">
+            <p>今天（实际是前几天）写了两个技能，目前比较简陋</p>
+<ol>
+<li>雷霆之力<img src="https://axunren.github.io//post-images/1697374454504.png" alt="" loading="lazy">
+<ul>
+<li>每当攻击敌人之后有概率让敌人触电，当敌人处于触电的时候周围有蓝色粒子，在蓝色粒子里面的敌人每帧都有1/6的概率扣血</li>
+</ul>
+</li>
+<li>烈焰之力<img src="https://axunren.github.io//post-images/1697374459870.png" alt="" loading="lazy">
+<ul>
+<li>每当攻击敌人之后都有1/5的概率让敌人获得着火buff</li>
+</ul>
+</li>
+</ol>
 
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://axunren.github.io/About-Me-or-Us/">
+              <h3 class="post-title">
+                下一篇：关于我或我们
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
   <div class="slogan">乐</div>
   <div class="social-container">
     
@@ -98,8 +151,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -114,7 +167,29 @@ var app = new Vue({
 
 
 
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
 
-    </div>
+      var gitalk = new Gitalk({
+        clientID: 'd08502eb1263031deafa',
+        clientSecret: '941aac80ba60f3e844dcd4eee584b6fce387bb40',
+        repo: 'axunren.github.io',
+        owner: 'AXunRen',
+        admin: ['AXunRen'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
