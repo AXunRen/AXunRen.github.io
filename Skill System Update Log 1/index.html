@@ -72,7 +72,7 @@
         
         <li class="nav-item">
           <div class="gridea-search-container">
-            <form id="gridea-search-form" style="position: relative" data-update="1697850019378"
+            <form id="gridea-search-form" style="position: relative" data-update="1697851082600"
               action="/search/index.html">
               <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
               <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -116,7 +116,7 @@
         
         <li class="nav-item">
           <div class="gridea-search-container">
-            <form id="gridea-search-form" style="position: relative" data-update="1697850019378"
+            <form id="gridea-search-form" style="position: relative" data-update="1697851082600"
               action="/search/index.html">
               <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
               <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -187,28 +187,41 @@
           
           <div class="comment" style="text-align: center;">
             
+            <span id="/post//" class="leancloud_visitors"
+              data-flag-title="技能系统更新日志①">
+              <em class="post-meta-item-text">阅读量 </em>
+              <i class="leancloud-visitors-count">loading...</i>
+            </span>
+            
 
             
             
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<div id="gitalk-container"></div>
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
 <script>
-  var gitalk = new Gitalk({
-    clientID: 'd08502eb1263031deafa',
-    clientSecret: '941aac80ba60f3e844dcd4eee584b6fce387bb40',
-    repo: 'axunren.github.io',
-    owner: 'AXunRen',
-    admin: ['AXunRen'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
+	new Valine({
+		el: '#vcomments',
+		appId: 'ukjBcrEWlwDR2LnGbwPpMEVS-gzGzoHsz',
+		appKey: 'XZ5EMLo8t1GwUKEa26kLBGbZ',
+		avatar: 'wavatar',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'you get soft♂',
+		visitor: true,
+	});
 </script>
 
-            
-            
-            
             
           </div>
         </div>
