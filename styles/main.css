@@ -1148,38 +1148,38 @@ h3.serchedPreview {
 }
 
 			body {
-				background-color: #242424 !important;
-				color: #EAEAEA !important;
+				background-color: #ffffff !important;
+				color: #4a4a4a !important;
 			}
 
 			#mainNav.is-fixed {
-				background-color: RGBA(36,36,36,0.9);
-				border-bottom: 1px solid #414040;
+				background-color: RGBA(255,255,255,0.9);
+				border-bottom: 1px solid #ffffff;
 			}
 
 			.fixed-top {
-				background-color: #242424;
+				background-color: #ffffff;
 			}
 			.fixed-top .navbar-brand,
 			.fixed-top .navbar-nav > li.nav-item > a,
 			.fixed-top .navbar-toggler {
-				color: #EAEAEA;
+				color: #4a4a4a;
 			}
 			.navbar-light .navbar-toggler {
-				border-color: RGBA(234,234,234,0.5) !important;;
+				border-color: RGBA(74,74,74,0.5) !important;;
 			}
 
 			a {
-				color: RGBA(255,214,2,0.7) ;
+				color: RGBA(0,133,161,0.7) ;
 			}
 
 			a:focus,
 			a:hover {
-				color: #ffd602 ;
+				color: #0085a1 ;
 			}
 
             .row .post-row-container {
-				background-color: #2a2a2aa8 !important;
+				background-color: #f3f3f3a8 !important;
 			}
 
 			.title-floor .post-title-container a,
@@ -1188,16 +1188,16 @@ h3.serchedPreview {
 			.list-inline .list-inline-item a,
 			#mainNav.is-fixed .navbar-brand,
 			#mainNav.is-fixed .navbar-nav > li.nav-item > a {
-				color: #EAEAEA !important;
+				color: #4a4a4a !important;
 			}
 			.title-floor .post-title-container a:after,
 			.pagination-active a{
-				background-color: #EAEAEA !important;
+				background-color: #4a4a4a !important;
 			}
 
 			blockquote {
-				border-left: 2px solid #ffd602;
-				color: #ffd602 !important;
+				border-left: 2px solid #0085a1;
+				color: #0085a1 !important;
 			}
 
 			.post-preview > .post-meta {
@@ -1207,80 +1207,80 @@ h3.serchedPreview {
 			.title-floor .post-title-container a:hover,
 			#mainNav.is-fixed .navbar-brand:hover,
 			#mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-				color: #ffd602 !important;
+				color: #0085a1 !important;
 			}
 
 			.title-floor .post-title-container a:hover::after{
-				background-color: #ffd602 !important;
+				background-color: #0085a1 !important;
 			}
 
 			::selection{
-				background: #ffd602 !important;
+				background: #0085a1 !important;
 			}
 
 			.post-row-sec-floor .post-tag {
-				color: #EAEAEA !important;
-				border-color: #EAEAEA !important;;
+				color: #4a4a4a !important;
+				border-color: #4a4a4a !important;;
 			}
 
 			.post-row-sec-floor .post-tag:hover {
-				color: #ffd602 !important;
-				border-color: #ffd602 !important;
+				color: #0085a1 !important;
+				border-color: #0085a1 !important;
 			}
 
 			.page {
-				border-top: 1px solid #4c4c4c !important;
+				border-top: 1px solid #0000001a !important;
 			}
 
 			hr {
-				border-top: 1px solid #4c4c4c !important;
+				border-top: 1px solid #0000001a !important;
 			}
 
 			.fa-inverse {
-				color: #414040 !important;
+				color: #ffffff !important;
 			}
 
 			.pagination-ul a:hover {
-				background-color: #b6b6b6fc !important;
-				color: #414040 !important;
-				box-shadow: 0 1px 4px 2px #b6b6b6fc !important;
+				background-color: #817c7c !important;
+				color: #ffffff !important;
+				box-shadow: 0 1px 4px 2px RGBA(129,124,124,0.9) !important;
 			}
 
 			.pagination-ul .pagination-active a{
-				color: #414040 !important;
-				box-shadow: 0 1px 4px 2px #b6b6b6fc !important;
+				color: #ffffff !important;
+				box-shadow: 0 1px 4px 2px RGBA(129,124,124,0.9) !important;
 			}
 
 			.sticky-top-flag {
-				background: RGBA(234,234,234,0.8) !important;
-				color: #414040 !important;
+				background: RGBA(74,74,74,0.8) !important;
+				color: #ffffff !important;
 			}
 
 			header.masthead .overlay {
-				opacity: 0.9 !important;
+				opacity: 0.4 !important;
 			}
 
 			.toc-container .markdownIt-TOC {
-				border: 1px solid RGBA(234,234,234,0.3);
-				background-color: #242424;
+				border: 1px solid RGBA(74,74,74,0.3);
+				background-color: #ffffff;
 			}
 
 			.toc-container .markdownIt-TOC li a {
-				color: RGBA(234,234,234,0.5);
+				color: RGBA(74,74,74,0.5);
 			}
 
 			.currentToc {
-				color: #ffd602 !important;
-				background-color: RGBA(234,234,234,0.1);
+				color: #0085a1 !important;
+				background-color: RGBA(74,74,74,0.1);
 			}
 
 			.toc-container li a:hover {
-				background-color: RGBA(234,234,234,0.1);
+				background-color: RGBA(74,74,74,0.1);
 			}
 
 			.row .post-row-container ,
 			#post-content-article .container .post-feature-header-image {
-				box-shadow: 0 3px 15px 2px #4b4a4a;;
+				box-shadow: 0 3px 15px 2px #c1bcbc;;
 			}
 			
          
